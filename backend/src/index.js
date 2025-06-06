@@ -38,6 +38,6 @@ io.on('connection', (socket) => {
 
 // 서버 실행
 const PORT = 5000;
-server.listen(PORT, () => {
+server.listen(PORT, '0.0.0.0', () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
