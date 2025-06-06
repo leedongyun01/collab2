@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://43.202.79.178/api/', // 백엔드 주소
+  baseURL: 'http://43.202.79.178/', // 백엔드 주소
 });
 
 // 요청을 보낼 때마다 Authorization 헤더에 토큰을 추가
